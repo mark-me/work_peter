@@ -1,0 +1,47 @@
+Environment;Source;Target;Conection via;;Store(s)
+PP1;MMS-ST;MPOS;MIP;xxx;2, 83
+PP1;MMS-ST;ArticleCache;MIP;ArticleCache;2
+PP1;MMS-ST;ESL;MIP;EslDownloadEsl;2, 83
+PP1;MMS-ST;MCRM;MIP;MmsstArticleMcrm;1, 2, 83
+PP1;MMS-ST;MDW;MIP;MmsstDnrTransferMdw;1, 2, 83?
+PP1;MPOS;MMS-ST;MIP;MposInvoiceUpload;2, 83
+PP1;MSHOP;MMS-ST;MIP;MshopStockPreallocationMmsst;1, 2
+PP1;MPOS;CONI2;MIP;PackListUploadConi2;2
+PP1;MPOS;MDW;MIP;MposInvoiceUpload;2
+PP1;MPOS;MMC;MIP;MposInvoiceUpload;2, 83
+PP1;MPOS;MCRM;MIP;MposInvoiceUpload;2, 83
+PP1;MPOS;MCFM;MIP;MposInvoiceUpload;2, 83
+PP1;MPOS;DANA;MIP;MposInvoiceUpload;2, 83
+PP1;MPOS;3V;MIP;???;???
+PP1;MPOS;SABA;MIP;???;???
+PP1;MPOS;MSHOP;MIP;???;???
+PP1;MMS-HO;MCRM;MIP;MmshoArticleMcrm;?
+PP1;CONI2;MPOS;MIP;???;???
+PP1;MCFM;MPOS;MIP;???;???
+PP1;MCFM;MCRM;MIP;McfmCustomerDownloadMcrm;1, 2
+PP1;MCFM;MPOS;MIP;McfmCustomerDownloadMpos;2
+PP1;MCFM;CONI2;MIP;McfmCustomerDownloadConi;0?
+PP1;MCRM;MCFM;MIP;CreditCheckBettyMcfm;?
+PP1;MCRM;MPOS;MIP;???;???
+PP1;MMC;SAP-FICO;;;1, 2, 83
+PP2;MMS-ST;MPOS;MIP;xxx;8
+PP2;MMS-ST;ESL;MIP;EslDownloadEsl;8, 10?
+PP2;MMS-ST;MCRM;MIP;MmsstArticleMcrm;?
+PP2;MPOS;MMS-ST;MIP;MposInvoiceUpload;8
+PP2;MSHOP;MMS-ST;MIP;MshopStockPreallocationMmsst;8, 10
+PP2;MPOS;CONI2;MIP;PackListUploadConi2;8
+PP2;MPOS;MDW;MIP;MposInvoiceUpload;8
+PP2;MPOS;MMC;MIP;MposInvoiceUpload;8
+PP2;MPOS;MCRM;MIP;MposInvoiceUpload;8
+PP2;MPOS;MCFM;MIP;MposInvoiceUpload;8
+PP2;MPOS;DANA;MIP;MposInvoiceUpload;8
+PP2;MPOS;SABA;MIP;???;???
+PP2;MPOS;MSHOP;MIP;???;???
+PP2;MMS-HO;MCRM;MIP;MmshoArticleMcrm;?
+PP2;CONI2;MPOS;MIP;???;???
+PP2;MCFM;MPOS;MIP;???;???
+PP2;MCFM;MCRM;MIP;McfmCustomerDownloadMcrm;8
+PP2;MCFM;MPOS;MIP;McfmCustomerDownloadMpos;8, 10
+PP2;MCFM;CONI2;MIP;McfmCustomerDownloadConi;0?
+PP2;MCRM;MCFM;MIP;CreditCheckBettyMcfm;?
+PP2;MCRM;MPOS;MIP;???;???
